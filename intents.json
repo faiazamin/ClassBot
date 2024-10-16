@@ -1,0 +1,116 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+   {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me ClassBot","I'm ClassBot","I'm ClassBot your virtual assistant"]
+  },
+
+  {"tag": "courses",
+  "patterns": ["what courses are available", "how many courses are there in this university"],
+  "responses": ["The University of Dhaka is one of the largest universities of Bangladesh, \nDU to provide enviable higher education in Science, Business and Arts to students in Bangladesh.\nFor bachelor's Degree in Information Technology we have been offering the specialization in BSc (Hons) Computing.\nFor Bachelors in Business Administration we have been offering the followings:\n\n1. BBA (Marketing) with International Business \n\n2. BBA (Accounting & Finance) with International Business\n\n3. BBA (International Business)"]
+  },
+
+   {"tag": "courseDuration",
+  "patterns": ["how long will be BSc or BBA course", "how long will it take to complete BSc or BBA course"],
+  "responses": ["Our college offers 4 year-long a BSc course and 4 year long BBA course."]
+  },
+
+   {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the university"],
+  "responses": ["University of Dhaka is situated in the heart of Dhaka. It is surrounded by shahbagh, sohrawardy udyan, old dhaka"]
+  },
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","how many semesters one should study in a year"],
+  "responses": ["There are two semesters in a year."]
+  },
+
+  {"tag": "semDuration",
+  "patterns": ["how many months are there in a semester","how long will be a single semester"],
+  "responses": ["The single semester will be around 6 months."]
+  },
+
+  {"tag": "studentRequirements",
+  "patterns": ["what are the student requirements for admission","entry requirements","admission requirements"],
+  "responses": ["Admission requirements can be found in university website"]
+  },
+
+  {"tag": "classes",
+  "patterns": ["how many classes will be there in a day","are how long are the classes?"],
+  "responses": ["There maybe  two or three classes per day. Each class will be of 1 hour and 30 minutes."]
+  },
+
+  {"tag": "teachingStyle",
+  "patterns": ["what is the teaching style of this university?","Is the teaching pattern different from another university?","what is the teaching format?"],
+  "responses": ["Our university has different teaching patterns than other colleges in Bangladesh. We adopt a British teaching methodology, following the LTW techniques which stands for Lecture, Tutorial and Workshop.\nYou can provide us with your contact details and our counsellors  s hare all reach out to you and provide you with further details."]
+  },
+
+  {"tag": "exams",
+  "patterns": ["what are the exams like?","What is the exam pattern"],
+  "responses": ["There are written exams which carry more weight than your assignments. The assignments have deadlines which you should not exceed if you want to get better marks."]
+  },
+
+  {"tag": "hours",
+  "patterns": ["what are your hours","when are you guys open","what your hours of operation"],
+  "responses": ["You can message us here at any hours. But our University premises will be open from 7:00 am to 5:00 pm only."]
+  },
+
+  {"tag": "funActivities",
+  "patterns": ["will there be any extra curriculum activities?","does the university conducts any fun program"],
+  "responses": ["Yes, Of course. Our university not only provides excellent education but also encourages a students to take part in different curriculum activities. The university conducts yearly programs like Sports meet, Carnival, Holi festival, and Christmas. \n Also our university has basketball court, badminton court, table tennis, chess, carrom board and many more refreshment zones."]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the university?","what are the facilities of university for students", "what are the university infrastructures "],
+  "responses": ["With excellent education facilities, Our university provides various other facilities like 24 hours internet, library, classes with AC, discussion room, canteen, parking space, and student service for any students queries."]
+  },
+
+  {"tag": "fee",
+  "patterns": ["how much is the university fee","what is the fee structure"],
+  "responses": ["Course BSc\nAdmission fee=RS 10,000\nYear 1\nUniversity and Exam fee= Tk 1000 Each semester fee=Tk 2500 Total fee= Tk 16000\nYear 2\nUniversity and Exam fee= Tk 1000 Each semester fee=Tk 2500 Total fee= Tk 6000\nYear 3\nUniversity and Exam fee= Tk 1000 Each semester fee=Tk 2500 Total fee= Tk 6000\n Year 4\nUniversity and Exam fee= Tk 1000 Each semester fee=Tk 2500 Total fee= Tk 6000\nGrandTotal fee= Tk 34,000\nCourse BBA\nAAdmission fee=RS 10,000\nYear 1\nUniversity and Exam fee= Tk 1000 Each semester fee=Tk 2500 Total fee= Tk 16000\nYear 2\nUniversity and Exam fee= Tk 1000 Each semester fee=Tk 2500 Total fee= Tk 6000\nYear 3\nUniversity and Exam fee= Tk 1000 Each semester fee=Tk 2500 Total fee= Tk 6000\n Year 4\nUniversity and Exam fee= Tk 1000 Each semester fee=Tk 2500 Total fee= Tk 6000\nGrandTotal fee= Tk 34,000"]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  { "tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  },
+  {"tag": "meetings",
+    "patterns": ["I am", "my self is", "my name is"],
+    "responses": ["Happy to know!", "how can I help!", "Pleasure to meet you"]
+  },
+  {"tag": "4th year routine",
+    "patterns": ["4th year routine", "tell me 4th year routine", "what is 4th year routine",
+      "fourth year routine", "tell me fourth year routine", "what is fourth year routine"],
+    "responses": ["sunday: CSE-4101(8am - 9:30am), CSE-4101(9:45am - 11:15am), CSE-4101(1pm - 2:30am)\n,monday: CSE-4111(8am - 12pm), CSE-4102(1pm - 2:30pm)\n,tuesday: CSE-4102(8am - 9:30am), CSE-4104(9:45am - 11:15am)\nwednesday: CSE-4114(8am - 12:00am)\nthursday: CSE-4101(8am - 9:30am), CSE-4101(8am - 9:30am)"]
+  },
+  {"tag": "3rd year routine",
+    "patterns": ["3rd year routine", "tell me 3rd year routine", "what is 3rd year routine",
+      "third year routine", "tell me third year routine", "what is third year routine"],
+    "responses": ["sunday: CSE-3101(8am - 9:30am), CSE-3101(9:45am - 11:15am), CSE-3101(1pm - 2:30am)\n,monday: CSE-3111(8am - 12pm), CSE-3102(1pm - 2:30pm)\n,tuesday: CSE-3102(8am - 9:30am), CSE-3104(9:45am - 11:15am)\nwednesday: CSE-3114(8am - 12:00am)\nthursday: CSE-3101(8am - 9:30am), CSE-3101(8am - 9:30am)"]
+  },
+  {"tag": "2nd year routine",
+    "patterns": ["2nd year routine", "tell me 2nd year routine", "what is 2nd year routine",
+      "second year routine", "tell me second year routine", "what is second year routine"],
+    "responses": ["sunday: CSE-2101(8am - 9:30am), CSE-2101(9:45am - 11:15am), CSE-2101(1pm - 2:30am)\n,monday: CSE-2111(8am - 12pm), CSE-2102(1pm - 2:30pm)\n,tuesday: CSE-2102(8am - 9:30am), CSE-2104(9:45am - 11:15am)\nwednesday: CSE-2114(8am - 12:00am)\nthursday: CSE-2101(8am - 9:30am), CSE-2101(8am - 9:30am)"]
+  },
+  {"tag": "1st year routine",
+    "patterns": ["1st year routine", "tell me 1st year routine", "what is 1st year routine",
+      "first year routine", "tell me first year routine", "what is first year routine"],
+    "responses": ["sunday: CSE-1101(8am - 9:30am), CSE-1101(9:45am - 11:15am), CSE-1101(1pm - 2:30am)\n,monday: CSE-1111(8am - 12pm), CSE-1102(1pm - 2:30pm)\n,tuesday: CSE-1102(8am - 9:30am), CSE-1104(9:45am - 11:15am)\nwednesday: CSE-1114(8am - 12:00am)\nthursday: CSE-1101(8am - 9:30am), CSE-1101(8am - 9:30am)"]
+  }
+
+]}
